@@ -1,24 +1,23 @@
 
+DROP TABLE assignments;
+DROP TABLE staff;
 DROP TABLE animals;
-
-CREATE TABLE animal (
-    id SERIAL,
-    name VARCHAR(255),
-    type VARCHAR(255),
-    age INT,
-    enclosure_id INT
-
-);
-
+DROP TABLE enclosures;
 
 CREATE TABLE enclosures (
     id SERIAL,
     name VARCHAR(255),
     capacity INT,
     closedForMaintenance boolean
-
 );
 
+CREATE TABLE animals (
+    id SERIAL,
+    name VARCHAR(255),
+    type VARCHAR(255),
+    age INT,
+    enclosure_id INT REFERENCES enclosures(id)
+);
 
 CREATE TABLE staff (
     id SERIAL,
@@ -28,8 +27,8 @@ CREATE TABLE staff (
 
 
 CREATE TABLE assignments (
-    employeeId INT,
-    enclosureId INT,
     day VARCHAR(255)
+    employee_id INT REFERENCES staff(id),
+    enclosure_id INT REFERENCES enclosures(id)
 );    
     

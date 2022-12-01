@@ -66,14 +66,14 @@ INSERT INTO staff (name, employeeNumber) VALUES('Iain', 33322);
 INSERT INTO staff (name, employeeNumber) VALUES('Colin', 76890);
 
 -- Assignment inserts
-INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Tuesday', 1, 1);
-INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Wednesday', 2, 1);
-INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Thurdsay', 3, 2);
-INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Friday', 4, 2);
-INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Monday', 5, 3);
-INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Monday', 6, 3);
-INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Saturday', 7, 4);
-INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Sunday', 8, 4);
-INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Wednesday', 9, 5);
-INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Tuesday', 10, 5);
+INSERT INTO assignments(day, employee_id, enclosure_id) VALUES ('Tuesday', 1, 1);
+INSERT INTO assignments(day, employee_id, enclosure_id) VALUES ('Wednesday', 2, 1);
+INSERT INTO assignments(day, employee_id, enclosure_id) VALUES ('Thurdsay', 3, 2);
+INSERT INTO assignments(day, employee_id, enclosure_id) VALUES ('Friday', 4, 2);
+INSERT INTO assignments(day, employee_id, enclosure_id) VALUES ('Monday', 5, 3);
+INSERT INTO assignments(day, employee_id, enclosure_id) VALUES ('Monday', 6, 3);
+INSERT INTO assignments(day, employee_id, enclosure_id) VALUES ('Saturday', 7, 4);
+INSERT INTO assignments(day, employee_id, enclosure_id) VALUES ('Sunday', 8, 4);
+INSERT INTO assignments(day, employee_id, enclosure_id) VALUES ('Wednesday', 9, 5);
+INSERT INTO assignments(day, employee_id, enclosure_id) VALUES ('Tuesday', 10, 5);
 

@@ -35,4 +35,25 @@ CREATE TABLE assignments (
 
 -- Enclosures inserts
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES('big cat field', 20, false);
-    
+INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES('Sea life', 30, false);
+INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES('Reptiles', 10, false);
+INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES('Birds', 15, false);
+INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES('Insects', 30, true);
+
+
+-- Animals inserts
+INSERT INTO animals (name, type, age, enclosure_id) VALUES("Tony", "Tiger", 10, 1);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES("Simba", "Lion", 15, 1);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES("Nemo", "Clownfish", 15, 2);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES("Crush", "Turtle", 15, 2);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES("Scaley", "Lizard", 12, 3);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES("Slimey", "Snake", 25, 3);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES("Blu", "Macaw", 8, 4);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES("Nigel", "Pelican", 32, 4);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES("Sticky", "Stick insect", 4, 5);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES("Tarzan", "Tarantulla", 6, 5);
+
+-- Staff inserts
+
+-- Assignment inserts
+

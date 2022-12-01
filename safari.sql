@@ -32,4 +32,7 @@ CREATE TABLE assignments (
     employee_id INT REFERENCES staff(id),
     enclosure_id INT REFERENCES enclosures(id)
 );    
+
+-- Enclosures inserts
+INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES('big cat field', 20, false);
     

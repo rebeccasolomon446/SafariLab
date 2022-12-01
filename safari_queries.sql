@@ -10,3 +10,10 @@ SELECT animals.name AS animal_name, enclosures.name FROM animals
 inner join enclosures 
 on enclosures.id = animals.enclosure_id
 WHERE enclosures.name = 'big cat field';
+
+-- names of all staff and the enclosures they work in
+SELECT staff.name AS staff_name, enclosures.name FROM staff
+inner join assignments 
+on staff.id = assignments.employee_id
+inner join enclosures
+on enclosures.id = assignments.enclosure_id;

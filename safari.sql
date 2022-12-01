@@ -54,6 +54,16 @@ INSERT INTO animals (name, type, age, enclosure_id) VALUES("Sticky", "Stick inse
 INSERT INTO animals (name, type, age, enclosure_id) VALUES("Tarzan", "Tarantulla", 6, 5);
 
 -- Staff inserts
+INSERT INTO staff (name, employeeNumber) VALUES("Captain Rik", 12345);
+INSERT INTO staff (name, employeeNumber) VALUES("Rebecca", 78314);
+INSERT INTO staff (name, employeeNumber) VALUES("Solomon", 24871);
+INSERT INTO staff (name, employeeNumber) VALUES("Fatimah", 02383);
+INSERT INTO staff (name, employeeNumber) VALUES("Ed", 11811);
+INSERT INTO staff (name, employeeNumber) VALUES("Zsolt", 41460);
+INSERT INTO staff (name, employeeNumber) VALUES("Anna", 53821);
+INSERT INTO staff (name, employeeNumber) VALUES("Richard", 90909);
+INSERT INTO staff (name, employeeNumber) VALUES("Iain", 33322);
+INSERT INTO staff (name, employeeNumber) VALUES("Colin", 76890);
 
 -- Assignment inserts
 

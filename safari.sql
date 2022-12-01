@@ -42,28 +42,38 @@ INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES('Insects', 
 
 
 -- Animals inserts
-INSERT INTO animals (name, type, age, enclosure_id) VALUES("Tony", "Tiger", 10, 1);
-INSERT INTO animals (name, type, age, enclosure_id) VALUES("Simba", "Lion", 15, 1);
-INSERT INTO animals (name, type, age, enclosure_id) VALUES("Nemo", "Clownfish", 15, 2);
-INSERT INTO animals (name, type, age, enclosure_id) VALUES("Crush", "Turtle", 15, 2);
-INSERT INTO animals (name, type, age, enclosure_id) VALUES("Scaley", "Lizard", 12, 3);
-INSERT INTO animals (name, type, age, enclosure_id) VALUES("Slimey", "Snake", 25, 3);
-INSERT INTO animals (name, type, age, enclosure_id) VALUES("Blu", "Macaw", 8, 4);
-INSERT INTO animals (name, type, age, enclosure_id) VALUES("Nigel", "Pelican", 32, 4);
-INSERT INTO animals (name, type, age, enclosure_id) VALUES("Sticky", "Stick insect", 4, 5);
-INSERT INTO animals (name, type, age, enclosure_id) VALUES("Tarzan", "Tarantulla", 6, 5);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES('Tony', 'Tiger', 10, 1);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES('Simba', 'Lion', 15, 1);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES('Nemo', 'Clownfish', 15, 2);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES('Crush', 'Turtle', 15, 2);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES('Scaley', 'Lizard', 12, 3);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES('Slimey', 'Snake', 25, 3);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES('Blu', 'Macaw', 8, 4);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES('Nigel', 'Pelican', 32, 4);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES('Sticky', 'Stick insect', 4, 5);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES('Tarzan', 'Tarantulla', 6, 5);
 
 -- Staff inserts
-INSERT INTO staff (name, employeeNumber) VALUES("Captain Rik", 12345);
-INSERT INTO staff (name, employeeNumber) VALUES("Rebecca", 78314);
-INSERT INTO staff (name, employeeNumber) VALUES("Solomon", 24871);
-INSERT INTO staff (name, employeeNumber) VALUES("Fatimah", 02383);
-INSERT INTO staff (name, employeeNumber) VALUES("Ed", 11811);
-INSERT INTO staff (name, employeeNumber) VALUES("Zsolt", 41460);
-INSERT INTO staff (name, employeeNumber) VALUES("Anna", 53821);
-INSERT INTO staff (name, employeeNumber) VALUES("Richard", 90909);
-INSERT INTO staff (name, employeeNumber) VALUES("Iain", 33322);
-INSERT INTO staff (name, employeeNumber) VALUES("Colin", 76890);
+INSERT INTO staff (name, employeeNumber) VALUES('Captain Rik', 12345);
+INSERT INTO staff (name, employeeNumber) VALUES('Rebecca', 78314);
+INSERT INTO staff (name, employeeNumber) VALUES('Solomon', 24871);
+INSERT INTO staff (name, employeeNumber) VALUES('Fatimah', 02383);
+INSERT INTO staff (name, employeeNumber) VALUES('Ed', 11811);
+INSERT INTO staff (name, employeeNumber) VALUES('Zsolt', 41460);
+INSERT INTO staff (name, employeeNumber) VALUES('Anna', 53821);
+INSERT INTO staff (name, employeeNumber) VALUES('Richard', 90909);
+INSERT INTO staff (name, employeeNumber) VALUES('Iain', 33322);
+INSERT INTO staff (name, employeeNumber) VALUES('Colin', 76890);
 
 -- Assignment inserts
+INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Tuesday', 1, 1);
+INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Wednesday', 2, 1);
+INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Thurdsay', 3, 2);
+INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Friday', 4, 2);
+INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Monday', 5, 3);
+INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Monday', 6, 3);
+INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Saturday', 7, 4);
+INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Sunday', 8, 4);
+INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Wednesday', 9, 5);
+INSERT INTO assignment(day, employee_id, enclosure_id) VALUES ('Tuesday', 10, 5);
 

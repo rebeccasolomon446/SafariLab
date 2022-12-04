@@ -29,3 +29,9 @@ inner join enclosures
 on enclosures.id = assignments.enclosure_id
 WHERE enclosures.closedformaintenance = true;
 
+-- Name of the enclosure where the oldest animal lives:
+SELECT enclosures.name, animals.age AS animal_age FROM animals
+inner join enclosures 
+on enclosures.id = animals.enclosure_id ORDER BY animals.age DESC LIMIT 1 ;
+
+
